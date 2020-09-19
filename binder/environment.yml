@@ -1,0 +1,22 @@
+channels:
+  - conda-forge
+  - conda-forge/label/prerelease-jupyterlab  
+dependencies:
+  - numpy
+  - scipy
+  - pandas
+  - seaborn
+  - matplotlib
+  - bokeh
+  - xeus-cling=0.10.0
+  - xtensor=0.21.2
+  - xtensor-blas=0.17.1
+  - jupyterlab=2
+  - nodejs
+  - notebook=6
+  - ptvsd
+  - xeus-python=0.8.0
+  - nbgitpuller
+  - pip
+  - pip: 
+    - bash_kernel

@@ -1,0 +1,6 @@
+python -m bash_kernel.install
+jupyter serverextension enable --py nbgitpuller --sys-prefix
+jupyter labextension install @ijmbarr/jupyterlab_spellchecker
+jupyter labextension install @jupyterlab/debugger@0.3.2 --debug --no-build
+jupyter labextension install @jupyterlab/toc
+jupyter lab build --minimize=False
