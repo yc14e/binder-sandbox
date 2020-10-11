@@ -8,6 +8,7 @@ dependencies:
   - seaborn
   - matplotlib
   - bokeh
+  - scikit-learn 
   - xeus-cling=0.10.0
   - xtensor=0.21.2
   - xtensor-blas=0.17.1
@@ -17,6 +18,14 @@ dependencies:
   - ptvsd
   - xeus-python=0.8.6
   - nbgitpuller
+  - pandoc
+  - sphinx
+  - nbsphinx
+  - jupyterlab-git
   - pip
   - pip: 
     - bash_kernel
+    - sphinx_rtd_theme
+    - nbdime
+    - yfinance
+    - schedule 
