@@ -15,7 +15,7 @@ dependencies:
   - nodejs
   - notebook=6
   - ptvsd
-  - xeus-python=0.8.0
+  - xeus-python=0.8.6
   - nbgitpuller
   - pip
   - pip: 
