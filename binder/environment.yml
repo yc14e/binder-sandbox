@@ -22,6 +22,8 @@ dependencies:
   - sphinx
   - nbsphinx
   - jupyterlab-git
+  - voila
+  - rise
   - pip
   - pip: 
     - bash_kernel
@@ -29,3 +31,4 @@ dependencies:
     - nbdime
     - yfinance
     - schedule 
+    - panel
