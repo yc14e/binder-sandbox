@@ -16,7 +16,7 @@ dependencies:
   - nodejs
   - notebook=6
   - ptvsd
-  - xeus-python=0.8.6
+  - xeus-python=0.9.0
   - nbgitpuller
   - pandoc
   - sphinx
